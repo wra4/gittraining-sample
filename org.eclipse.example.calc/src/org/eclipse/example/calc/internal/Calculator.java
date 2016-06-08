@@ -19,6 +19,7 @@ import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
+import org.eclipse.example.calc.internal.operations.Times2;
 
 public class Calculator {
 
@@ -44,6 +45,7 @@ public class Calculator {
 		new Square();
 		new Multiply();
 		new Power();
+		new Times2();
 	}
 
 	private void calculate(String cmdName) {
